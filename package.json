@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start ",
     "lint": "next lint",
-    "deploy": "yarn install --frozen-lockfile && yarn build && yarn start"
+    "deploy": "npm ci && npm run build && npm run start"
   },
   "dependencies": {
     "@types/node": "18.11.9",
