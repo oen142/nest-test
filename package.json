@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "yarn install --frozen-lockfile && yarn build && yarn start"
+    "deploy": "yarn install --frozen-lockfile && yarn build && yarn start -p 80"
   },
   "dependencies": {
     "@types/node": "18.11.9",
